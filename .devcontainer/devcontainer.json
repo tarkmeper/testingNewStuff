@@ -1,4 +1,15 @@
 {
     "image":"mcr.microsoft.com/devcontainers/universal:2",
-    "build": { "dockerfile": "Dockerfile" },
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {3
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "ms-python.python",
+                "GitHub.copilot"
+            ]
+        }
+    },
 }
